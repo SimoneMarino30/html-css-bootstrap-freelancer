@@ -1,0 +1,45 @@
+.container-fluid {
+    background-color: aqua;
+}
+
+.row {
+    background-color: grey;
+    border: 1px solid black;
+}
+
+
+/* DEBUG */
+
+.debug1 {
+    background-color: yellowgreen;
+    border: 1px solid black;
+}
+
+.debug2 {
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.debug3 {
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.debug4 {
+    background-color: lime;
+    border: 1px solid black;
+}
+
+.debug5 {
+    background-color: firebrick;
+    border: 1px solid black;
+}
+
+.debug6 {
+    background-color: gold;
+    border: 1px solid black;
+}
+
+.box {
+    background-color: hotpink;
+}
