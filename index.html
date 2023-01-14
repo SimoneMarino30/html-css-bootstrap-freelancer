@@ -10,6 +10,12 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- GOOGLE FONTS LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900;1000&display=swap"
+        rel="stylesheet">
+
     <!-- BOOTSTRAP CDN LINK -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -26,7 +32,7 @@
     <header>
         <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                <a class="navbar-brand p-3 fs-4 fw-bold" href="#">START BOOTSTRAP</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -34,13 +40,13 @@
                 <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">PORTFOLIO</a>
+                            <a class="nav-link text-white fs-6 fw-bold" aria-current="page" href="#">PORTFOLIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT</a>
+                            <a class="nav-link text-white fs-6 fw-bold" href="#">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT</a>
+                            <a class="nav-link text-white fs-6 fw-bold" href="#">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -48,16 +54,17 @@
         </nav>
     </header>
     <!-- JUMBOTRON -->
-    <section id="jumbotron" class="d-flex flex-column align-items-center text-center text-uppercase py-5">
-        <div class="box box-img jumbo-img">
+    <section id="jumbotron" class="d-flex flex-column align-items-center text-center text-uppercase py-5 text-white">
+        <div class="box box-img jumbo-img pb-1">
             <img src="./img/avatar.svg" alt="avatar">
         </div>
         <h1>START BOOTSTRAP</h1>
         <div class="box box-icon">
-            <!-- <div class="icon-line d-inline">a</div> -->
+            <div class="icon-line d-inline-block"></div>
             <i class="fa-solid fa-star"></i>
+            <div class="icon-line d-inline-block"></div>
         </div>
-        <p class="jumbo-list">
+        <p class="jumbo-list pt-2">
             <a href="#">GRAPHIC ARTIST</a> - 
             <a href="#">WEB DESIGNER</a> -
             <a href="#">ILLUSTRATOR</a>
@@ -67,29 +74,31 @@
     <section id="portfolio" class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 d-flex flex-column align-items-center text-center">
+                <div class="col-12 d-flex flex-column align-items-center text-center pb-3">
                     <h1>
                         PORTFOLIO
                     </h1>
                     <div class="box box-icon">
+                        <div class="icon-line d-inline-block bg-dark"></div>
                         <i class="fa-solid fa-star"></i>
+                        <div class="icon-line d-inline-block bg-dark"></div>
                     </div>
                 </div>
             </div>
     
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
-                    <div class="box box-img portfolio-img pt-5">
+                    <div class="box box-img portfolio-img">
                         <img src="./img/cabin.png" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
-                    <div class="box box-img portfolio-img pt-5">
+                    <div class="box box-img portfolio-img">
                         <img src="./img/cake.png" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
-                    <div class="box box-img portfolio-img pt-5">
+                    <div class="box box-img portfolio-img">
                         <img src="./img/circus.png" alt="">
                     </div>
                 </div>
@@ -112,32 +121,35 @@
         </div>
     </section>
     <!-- ABOUT -->
-    <section id="about" class="py-3">
+    <section id="about" class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 d-flex flex-column align-items-center text-center">
+                <div class="col-12 d-flex flex-column align-items-center text-center  text-white">
                     <h1>
                         ABOUT
                     </h1>
                     <div class="box box-icon">
+                        <div class="icon-line d-inline-block"></div>
                         <i class="fa-solid fa-star"></i>
+                        <div class="icon-line d-inline-block"></div>
                     </div>
                 </div>
             </div>
             <!-- Allineamento colonne -->
-            <div class="row justify-content-center">
-                <div class="col-10 col-md-5 pt-3">
+            <div class="row justify-content-center fs-5 text-white">
+                <div class="col-10 col-md-5 pt-4 ">
                     Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and Javascript as well as optional LESS stylesheets foe easy customization.
                 </div>
-                <div class="col-10 col-md-5 pt-3">
+                <div class="col-10 col-md-5 pt-4 fs-5">
                     Whether you're a student looking to showcase your work, a professional lokking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
                 </div>
     
                 <div class="w-100"></div>
     
-                <div class="col-auto pt-3">
-                    <button type="button">
-                        Download
+                <div class="col-auto pt-5">
+                    <button type="button" class="about-btn">
+                        <i class="fa-solid fa-download"></i> 
+                        <span>Download</span>
                     </button>
                 </div>
             </div>
@@ -152,13 +164,15 @@
                         CONTACT ME
                     </h1>
                     <div class="box box-icon pb-3">
+                        <div class="icon-line d-inline-block bg-dark"></div>
                         <i class="fa-solid fa-star"></i>
+                        <div class="icon-line d-inline-block bg-dark"></div>
                     </div>
                 </div>
             </div>
             <form action="https:tizianonicolai.com/lezioni/form-printer" method="GET" class="row justify-content-center">
-                <div class="col-10">
-                    <input type="text" value="Name">
+                <div class="col-10 contact-form">
+                    <input type="text" name="name" method="GET" value="Name">
                 </div>
                 <div class="col-10">
                     <input type="text" value="Email address">
@@ -166,146 +180,60 @@
                 <div class="col-10">
                     <input type="text" value="Phone Number">
                 </div>
-                <div class="col-10">
+                <div class="col-10 contact-form">
                     <input type="text" value="Message">
                 </div>
                 <div class="col-10">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <textarea name="text" id="text-area" cols="10" rows="5"></textarea>
                 </div>
-                <div class="col-10">
-                    <input type="submit" value="Send">
+                <div class="col-10 contacts-btn">
+                    <input type="submit" value="Send" class="contacts-btn">
                 </div>
             </form>
         </div>
     </section>
     </main>
     <!-- FOOTER -->
-    <footer class="pt-5">
-        <section class="upper-footer">
-            <div class="container text-center">
+    <footer class="">
+        <section class="upper-footer pt-5 pb-3">
+            <div class="container text-center text-white">
                 <div class="row">
                     <div class="col-12 col-md-4">
                         <h3>LOCATION</h3>
                         <p>
                             2215 John Daniel Clark, MO 
+                            <br>
+                            <span>54243</span>
                         </p>
-                        <span>54243</span>
+                        
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-4 text-white">
                         <h3>AROUND THE WEB</h3>
-                        <div>
+                        <div class="around-icon d-inline-block ">
                             <i class="fa-brands fa-facebook-f"></i>
                         </div>
-                        <div>
-                            <i class="fa-brands fa-facebook-f"></i>
+                        <div class="around-icon d-inline-block ">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </div>
+                        <div class="around-icon d-inline-block">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="around-icon d-inline-block">
+                            <i class="fa-brands fa-linkedin-in"></i>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-4 text-white">
                         <h3>ABOUT FREELANCER</h3>
-                        <p>
-                            Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.
+                        <p class="foot-free m-auto">
+                            Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="foot-link fw-bold fs-5">Start Bootstrap</a>.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
         <section class="bottom-footer text-center py-5">
-            <h4>
-                Copiright Your Website 2019
-            </h4>
+            <h4 class="fs-6 text-white">Copyright <i class="fa-regular fa-copyright fa-xs"></i> Your Website 2019</h4>
         </section>
     </footer>
-    <!-- NAV -->
-    <!-- <nav class="container-fluid text-center">
-        <div class="row">
-            <div class="col-1">SPACE</div>
-            <div class="col-5 debug1">START BOOTSTRAP NAV</div>
-            <div class="col-5 debug1">
-                <ul class="d-flex">
-                    <li>link</li>
-                    <li>link</li>
-                    <li>link</li>
-                </ul>
-            </div>
-            <div class="col-1">SPACE</div>
-        </div>
-    </nav> -->
-    <!-- SECTION 2 -->
-    <!-- <header class="container-fluid text-center">
-        <div class="row">
-            <div class="col-1">SPACE</div>
-            <div class="col-10 debug2">START BOOTSTRAP SECTION 2</div>
-            <div class="col-1">SPACE</div>
-        </div>
-    </header> -->
-    <!-- SECTION 3 -->
-    <!-- <section class="container-fluid text-center">
-        <div class="row">
-            <div class="col-1">SPACE</div>
-            <div class="col-10 debug3">PORTFOLIO SECTION 3</div>
-            <div class="col-1">SPACE</div>
-        </div>
-        <div class="container text-center">
-            <div class="row row-cols-3">
-                <div class="col-4 debug3">Card</div>
-                <div class="col-4 debug3">Card</div>
-                <div class="col-4 debug3">Card</div>
-                <div class="col-4 debug3">Card</div>
-                <div class="col-4 debug3">Card</div>
-                <div class="col-4 debug3">Card</div>
-            </div>
-        </div>
-    </section> -->
-    <!-- SECTION 4 -->
-    <!-- <section class="container-fluid text-center">
-        <div class="row">
-            <div class="col-1">SPACE</div>
-            <div class="col-10 debug4">ABOUT SECTION 4</div>
-            <div class="col-1">SPACE</div>
-        </div>
-        <div class="row">
-            <div class="col-1">SPACE</div>
-            <div class="col-5 debug4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, debitis.
-            </div>
-            <div class="col-5 debug4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, alias.
-            </div>
-            <div class="col-1">SPACE</div>
-        </div>
-    </section> -->
-    <!-- SECTION 5 -->
-    <!-- <section class="container-fluid text-center">
-        <div class="row">
-            <div class="col-1">SPACE</div>
-            <div class="col-10 debug5">CONTACT ME SECTION 5</div>
-            <div class="col-1">SPACE</div>
-        </div>
-        <div class="row">
-            <div class="col-1">SPACE</div>
-            <div class="col-10 debug5">
-                <div class="box debug5">Name</div>
-                <div class="box debug5">Email Address</div>
-                <div class="box debug5">Phone Number</div>
-                <div class="box debug5">Message</div>
-                <button class="box debug5">Send</button>
-            </div>
-            <div class="col-1">SPACE</div>
-        </div>
-    </section> -->
-    <!-- FOOTER -->
-    <!-- <footer class="container-fluid text-center">
-        <div class="row">
-            <div class="col-1">SPACE</div>
-            <div class="col debug6">LOCATION</div>
-            <div class="col debug6">AROUND THE WEB</div>
-            <div class="col debug6">ABOUT FREELANCER</div>
-            <div class="col-1">SPACE</div>
-        </div>
-        <div class="row">
-            <div class="col-1">SPACE</div>
-            <div class="col debug6">COPYRIGHT</div>
-            <div class="col-1">SPACE</div>
-    </footer> -->
 </body>
 </html>
